@@ -1,6 +1,6 @@
 # Unity Editor Helpers
 
-This is a collection of helper scripts developed by Newyellow to improve the Unity editor workflow. Some of these scripts were developed at Nyamyam Game Studio; a special thanks to my boss, Jennifer, for allowing me to share these results with the public.
+This is a collection of helper scripts developed by Newyellow to improve the Unity editor workflow. Some of these scripts were developed at [@Nyamyam](https://www.nyamyam.com/) Game Studio; a special thanks to my boss, Jennifer, for allowing me to share these results with the public.
 
 ## Tools
 
@@ -25,4 +25,5 @@ Located in `CustomAttributes/`, this tool provides a simple way to add buttons t
 - **`[Button]` Attribute**: Simply add the `[Button]` attribute to any method with no parameters in your script.
 - **Automatic Rendering**: The tool includes a custom editor that automatically scans for methods with the `[Button]` attribute and renders them as clickable buttons at the bottom of the Inspector.
 - **Custom Labels**: You can optionally provide a label for the button: `[Button("Click Me")]`. If no label is provided, the method name is used.
+
 - **Multi-Object Editing**: Supports multi-object editing, allowing you to trigger methods on all selected objects at once.
